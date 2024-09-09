@@ -43,7 +43,7 @@
 
     .debug .link{
         background-color: chocolate;
-        width: 500px;
+        
     }
 
     .debug .logo   {
@@ -148,14 +148,22 @@
 /* #region  header*/
 
     .header-container {
+        background-color: #3161e0;
         justify-content: center;
         padding: 5px;
+        color: white;
+        
+       
         
     }
 
     .link {
         
         text-align: center;
+        justify-content: space-around;
+        width: 500px;
+        
+        
     }
 
     .logo {
@@ -164,12 +172,20 @@
     }
 
     .login {
+    
         width: 300px;
-        text-align: end;
+        justify-content: end;
+        button{
+            padding: 0.6rem;
+            border-radius:18px ;
+            border: 0;
+        }
+
+        
     }
 
     .login, .link, .logo {
-
+        align-items: center;
         padding-top: 0.5rem;
         padding-bottom: 0.5rem;
     }
