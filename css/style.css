@@ -1,38 +1,4 @@
-/* #region common */
-* {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-
-    font-family: Whitney, 'Helvetica Neue', Helvetica, Arial, sans-serif;
-}
-
-.d-flex {
-    display: flex;
-}
-
-#top-footer,
-#top-main,
-#midle-main1,
-#midle-main2,
-#midle-main3,
-#bottom-main {
-    justify-content: center;
-    align-items: center;
-    padding: 50px;
-}
-
-
-
-img {
-    max-width: 100%;
-
-}
-
-/* #endregion common*/
-
-
-/* #region debug */
+/* #region DEBUG */
 
 
 .debug * {
@@ -41,8 +7,7 @@ img {
 }
 
 
-
-
+/*DEBUG HEADER*/
 
 
 .debug header {
@@ -64,7 +29,7 @@ img {
 }
 
 
-
+/*DEBUG MAIN*/
 
 .debug #top-main {
     background-color: blue;
@@ -112,7 +77,7 @@ img {
 }
 
 
-
+/*DEBUG FOOTER*/
 
 
 .debug footer {
@@ -150,16 +115,61 @@ img {
     background-color: brown;
 }
 
-
-/* #endregion debug*/
-
+/* #endregion DEBUG*/
 
 
 
 
+/* #region COMMON */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
 
-/* #region  header*/
+    font-family: Whitney, 'Helvetica Neue', Helvetica, Arial, sans-serif;
 
+}
+
+img {
+    max-width: 100%;
+}
+
+/* #endregion COMMON*/
+
+
+
+
+/* #region UTILIY */
+.d-flex {
+    display: flex;
+}
+
+.s-between {
+    justify-content: space-between;
+}
+
+.around {
+    justify-content: space-around;
+}
+
+.jc-center {
+    justify-content: center;
+}
+
+.ai-center {
+    align-items: center;
+}
+
+.p50 {
+    padding: 50px;
+}
+
+/* #endregion UTILITY */
+
+
+
+
+/* #region HEADER */
 header {
     background-color: #255ee9;
 }
@@ -167,16 +177,12 @@ header {
 .header-container {
     width: 80%;
     color: white;
-    justify-content: space-around;
     margin: auto;
 
 
 }
 
 .link {
-
-    text-align: center;
-    justify-content: space-around;
     width: 40%;
 
 
@@ -184,10 +190,6 @@ header {
 
 .logo {
     width: 10%;
-    align-items: center;
-
-
-
 }
 
 .login {
@@ -207,21 +209,19 @@ header {
 .login,
 .link,
 .logo {
-    align-items: center;
     padding-top: 0.5rem;
     padding-bottom: 0.5rem;
 }
 
-/* #endregion  header*/
+/* #endregion HEADER*/
 
 
 
 
-
-/* #region main */
+/* #region MAIN */
 #top-main {
 
-    background-image: url("/img/jumbo.png");
+    background-image: url("../img/jumbo.png");
     background-size: cover;
 
 }
@@ -263,14 +263,13 @@ button {
 #talk-title {
     font-size: 32px;
     font-weight: 600;
-    display: block;
+
     margin-bottom: 2rem;
 
 }
 
 #talk {
     line-height: 2rem;
-
     font-weight: 400;
 }
 
@@ -279,7 +278,6 @@ button {
 .find-square,
 .fandom-square {
     width: 300px;
-    justify-content: space-between;
 }
 
 h2 {
@@ -297,14 +295,11 @@ h2 {
 
 #bottom-main {
     flex-direction: column;
-    justify-content: space-between;
     align-items: center;
 }
 
 .bottom-main-container {
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
     text-align: center;
 }
 
@@ -312,7 +307,8 @@ h2 {
     margin-bottom: 2rem;
 }
 
-#mac2, #sub {
+#mac2,
+#sub {
 
     padding-top: 1rem;
     padding-bottom: 1rem;
@@ -325,21 +321,23 @@ h2 {
 
 }
 
-/* #endregion main*/
+/* #endregion MAIN*/
 
 
 
 
-/* #region footer */
+/* #region FOOTER */
 
 #top-footer {
-    justify-content: space-around;
+
     align-items: flex-start;
     margin-left: 200px;
     margin-right: 200px;
+    padding: 50px;
 
 
 }
+
 
 h3 {
     font-size: 30px;
@@ -347,27 +345,31 @@ h3 {
     color: #7188d9;
 }
 
+
 h4 {
     color: #7188d9;
 }
+
 
 h5 {
     padding-top: 1rem;
     color: white;
 }
 
+
 footer {
     background-color: #23272a;
 }
 
+
 #bottom-footer {
-    justify-content: center;
     padding: 5px;
     border-top: 1px solid #7188d9;
     margin-left: 300px;
     margin-right: 300px;
 
 }
+
 
 .fa {
     text-decoration: none;
@@ -377,19 +379,20 @@ footer {
 
 .bottom-footer-container {
     width: 1100px;
-    justify-content: space-between;
     padding-top: 0.5rem;
     padding-bottom: 0.5rem;
 
 }
 
+
 #it {
     color: white;
 }
 
-.bottone,
+
+.sub,
 .logo-footer {
     padding: 0.2rem;
 }
 
-/* #endregion footer*/
+/* #endregion FOOTER*/
