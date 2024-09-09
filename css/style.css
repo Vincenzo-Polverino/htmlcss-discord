@@ -3,6 +3,7 @@
         padding: 0;
         margin: 0;
         box-sizing: border-box;
+
         font-family: Whitney, 'Helvetica Neue', Helvetica, Arial, sans-serif;
     }
 
@@ -153,7 +154,7 @@
 /* #region  header*/
 
     .header-container {
-        background-color: #3161e0;
+        background-color: #255ee9;
         justify-content: center;
         padding: 5px;
         color: white;
@@ -166,19 +167,20 @@
         
         text-align: center;
         justify-content: space-around;
-        width: 500px;
+        width: 400px;
         
         
     }
 
     .logo {
-        width: 300px;
-        
+        width: 200px;
+    
+    
     }
 
     .login {
     
-        width: 300px;
+        width: 180px;
         justify-content: end;
         button{
             padding: 0.6rem;
@@ -209,19 +211,21 @@
     }
 
     .top-main-container {
-        padding-top: 4rem;
+        padding-top: 5rem;
         color:white;
         text-align: center;
-        width: 700px; 
+        width: 600px; 
 
 
         button{
-            padding: 1rem;
+            padding-top: 1rem;
+            padding-bottom: 1rem;
+            padding-left: 2rem;
+            padding-right: 2rem;
             border-radius:28px ;
             border: 0;
-            font-size: 20px;
-            margin-left:12px;
-            margin-right:12px;
+            margin: 12px;
+
         }
 
         #browser{
@@ -231,19 +235,48 @@
 
 
     }
+
+
+    .left-square{
+
+        width: 500px;
+    }
+
+
+
+
     #talk-title {
-        font-size: 55px;
+        font-size: 32px;
         font-weight: 600;
         display: block;
         margin-bottom: 2rem;
+
     }
 
     #talk{
         line-height: 2rem;
-        font-size: large;
-        font-weight:5600 ;
+
+        font-weight:400 ;
+    }
+    
+
+    .right-square{
+        width: 300px;
+        justify-content: space-around;
     }
 
+    #invite-title{
+        font-size: 30px;
+        font-weight: 800;
+        display: block;
+        margin-bottom: 2rem;
+        
+        
+    }
+
+    #invite{
+        
+    }
 
 /* #endregion main*/
 
