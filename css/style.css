@@ -3,7 +3,7 @@
         padding: 0;
         margin: 0;
         box-sizing: border-box;
-        font-family: "Roboto", system-ui;
+        font-family: Whitney, 'Helvetica Neue', Helvetica, Arial, sans-serif;
     }
 
     .d-flex {
@@ -16,6 +16,11 @@
         padding: 50px;
     }
 
+
+    img{
+        max-width: 100%;
+    
+    }
 /* #endregion common*/
 
 
@@ -60,7 +65,7 @@
     .debug .top-main-container {
         background-color: rgb(15, 135, 172);
         height: 400px;
-        width: 800px;
+        
     }
 
     .debug #midle-main1 {
@@ -195,12 +200,50 @@
 
 
 /* #region main */
+    #top-main {
+        background-image: url("/img/jumbo.png");
+        background-size:cover;
+        padding-bottom: 15%;
 
-    .top-main-container {
-        border-radius: 10px;
-        
         
     }
+
+    .top-main-container {
+        padding-top: 4rem;
+        color:white;
+        text-align: center;
+        width: 700px; 
+
+
+        button{
+            padding: 1rem;
+            border-radius:28px ;
+            border: 0;
+            font-size: 20px;
+            margin-left:12px;
+            margin-right:12px;
+        }
+
+        #browser{
+            background-color: #23272a;
+            color:white;
+        }
+
+
+    }
+    #talk-title {
+        font-size: 55px;
+        font-weight: 600;
+        display: block;
+        margin-bottom: 2rem;
+    }
+
+    #talk{
+        line-height: 2rem;
+        font-size: large;
+        font-weight:5600 ;
+    }
+
 
 /* #endregion main*/
 
