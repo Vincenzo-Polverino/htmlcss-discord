@@ -18,6 +18,7 @@
     }
 
 
+
     img{
         max-width: 100%;
     
@@ -199,12 +200,16 @@
 
 /* #endregion  header*/
 
-
+body{
+    background-image: url("/img/jumbo.png");
+    background-size:contain;
+    background-repeat: no-repeat;
+    b
+}
 
 /* #region main */
     #top-main {
-        background-image: url("/img/jumbo.png");
-        background-size:cover;
+
         padding-bottom: 15%;
 
         
@@ -216,18 +221,6 @@
         text-align: center;
         width: 600px; 
 
-
-        button{
-            padding-top: 1rem;
-            padding-bottom: 1rem;
-            padding-left: 2rem;
-            padding-right: 2rem;
-            border-radius:28px ;
-            border: 0;
-            margin: 12px;
-
-        }
-
         #browser{
             background-color: #23272a;
             color:white;
@@ -236,6 +229,17 @@
 
     }
 
+    button{
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+        padding-left: 2rem;
+        padding-right: 2rem;
+        border-radius:28px ;
+        border: 0;
+        margin: 12px;
+        font-weight: 700;
+
+    }
 
     .left-square{
 
@@ -268,18 +272,45 @@
     h2{
         font-size: 30px;
         font-weight: 800;
-        display: block;
         margin-bottom: 2rem;      
     }
 
 
 
-    #midle-main2{
+    #midle-main2, #bottom-main{
         background-color: #f6f6f6;
     }
 
+    #bottom-main {
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
 
+    .bottom-main-container {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
 
+    #ready {
+        margin-bottom: 2rem; 
+    }
+
+    #mac2{
+       
+        padding-top: 1rem;
+            padding-bottom: 1rem;
+            padding-left: 2rem;
+            padding-right: 2rem;
+            border-radius:28px ;
+            border: 0;
+            margin: 12px;
+            background-color: #255ee9;
+            color:white;
+        
+    }
 /* #endregion main*/
 
 
