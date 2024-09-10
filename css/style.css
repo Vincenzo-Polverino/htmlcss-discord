@@ -130,6 +130,11 @@
 
 }
 
+a {
+    text-decoration: none;
+    color: white;
+}
+
 img {
     max-width: 100%;
 }
@@ -232,28 +237,37 @@ header {
     text-align: center;
     width: 600px;
 
-    #browser {
-        background-color: #23272a;
-        color: white;
-    }
-
-
 }
 
-button {
+#browser {
+       
+    background-color: #23272a;
+    color: white;
     padding-top: 1rem;
     padding-bottom: 1rem;
     padding-left: 2rem;
     padding-right: 2rem;
     border-radius: 28px;
-    border: 0;
-    margin: 12px;
-    font-weight: 700;
-
 }
 
-.left-square {
+#mac,#login-button {
 
+    background-color: white;
+    color: black;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    border-radius: 28px;
+}
+
+
+#login-button{
+    font-weight: 700;
+}
+
+
+.left-square {
     width: 500px;
 }
 
@@ -263,14 +277,11 @@ button {
 #talk-title {
     font-size: 32px;
     font-weight: 600;
-
     margin-bottom: 2rem;
-
 }
 
-#talk {
+#talk{
     line-height: 2rem;
-    font-weight: 400;
 }
 
 
@@ -309,7 +320,6 @@ h2 {
 
 #mac2,
 #sub {
-
     padding-top: 1rem;
     padding-bottom: 1rem;
     padding-left: 2rem;
@@ -318,7 +328,6 @@ h2 {
     border: 0;
     background-color: #8ea1e1;
     color: white;
-
 }
 
 /* #endregion MAIN*/
@@ -329,15 +338,17 @@ h2 {
 /* #region FOOTER */
 
 #top-footer {
-
     align-items: flex-start;
     margin-left: 200px;
     margin-right: 200px;
     padding: 50px;
-
-
 }
 
+.footer-right-square>a {
+    line-height: 1.5rem;
+    font-size: 14px;
+    font-weight: 600;
+}
 
 h3 {
     font-size: 30px;
@@ -351,11 +362,6 @@ h4 {
 }
 
 
-h5 {
-    padding-top: 1rem;
-    color: white;
-}
-
 
 footer {
     background-color: #23272a;
@@ -367,7 +373,6 @@ footer {
     border-top: 1px solid #7188d9;
     margin-left: 300px;
     margin-right: 300px;
-
 }
 
 
@@ -381,7 +386,6 @@ footer {
     width: 1100px;
     padding-top: 0.5rem;
     padding-bottom: 0.5rem;
-
 }
 
 
